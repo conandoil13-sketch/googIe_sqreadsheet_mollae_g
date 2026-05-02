@@ -1,0 +1,198 @@
+.launcher-cell {
+  background: #fff;
+  border-color: #e7eaee;
+}
+
+.launcher-cell--header {
+  background: #f8faf9;
+  font-weight: 600;
+  color: #495057;
+}
+
+.launcher-status {
+  color: #4f565d;
+  font-weight: 500;
+}
+
+.launcher-cell--status-urgent {
+  background: #fff0f0;
+}
+
+.launcher-cell--status-active {
+  background: #fff8dc;
+}
+
+.launcher-cell--status-pending {
+  background: #f6f7f8;
+}
+
+.launcher-cell--status-complete {
+  background: #edf7ef;
+}
+
+.launcher-cell--status-onhold {
+  background: #f4f1ec;
+}
+
+.launcher-cell--action {
+  text-align: center;
+}
+
+.fake-task-row--interactive td {
+  transition:
+    background-color 140ms ease,
+    box-shadow 140ms ease;
+}
+
+.fake-task-row--interactive:hover td.launcher-cell {
+  background: #fbfdfb;
+}
+
+.fake-task-row--interactive:hover td.launcher-cell--status-pending {
+  background: #f1f4f2;
+}
+
+.fake-task-row--interactive:hover td.launcher-cell--action {
+  box-shadow: inset 0 0 0 1px rgba(28, 97, 52, 0.08);
+}
+
+.launcher-action-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 54px;
+  height: 22px;
+  padding: 0 10px;
+  border: 1px solid #d6dde3;
+  border-radius: 999px;
+  background: #f9fbfa;
+  color: #356d45;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.launcher-action-chip:hover {
+  background: #f4f8f5;
+}
+
+.launcher-action-chip--locked {
+  border-color: #e1e5e9;
+  background: #f6f7f8;
+  color: #7b838b;
+}
+
+.launcher-message-cell {
+  padding: 0 12px;
+  background: #fbfcfd;
+}
+
+.launcher-message {
+  color: #5d646b;
+  font-size: 12px;
+}
+
+.launcher-meta-cell {
+  padding: 0 10px;
+  background: #fbfcfd;
+  color: #6b7075;
+  font-size: 12px;
+}
+
+.launcher-workspace-cell {
+  padding: 10px 12px;
+  background: #fff;
+  vertical-align: top;
+}
+
+.launcher-workspace-cell--muted {
+  background: #fbfcfb;
+}
+
+.game-launcher {
+  min-height: auto;
+}
+
+.game-launcher__workspace {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.game-launcher__workspace-title {
+  color: #202124;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.game-launcher__workspace-description {
+  color: #5f6368;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.launcher-inline-card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.launcher-inline-card__label {
+  color: #5f6368;
+  font-size: 11px;
+}
+
+.launcher-inline-card__value {
+  color: #202124;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.launcher-title-cell,
+.launcher-summary-cell,
+.launcher-subtitle-cell,
+.launcher-help-cell {
+  background: #fff;
+}
+
+.launcher-title-cell {
+  padding: 10px 12px;
+}
+
+.launcher-title-block {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.launcher-title-block__title {
+  color: #1f1f1f;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.launcher-title-block__subtitle {
+  color: #6a7177;
+  font-size: 12px;
+}
+
+.launcher-summary-cell,
+.launcher-help-cell {
+  color: #666e75;
+  font-size: 12px;
+}
+
+.launcher-summary-cell {
+  background: #fcfdfc;
+}
+
+.launcher-subtitle-cell {
+  color: #636b72;
+  font-size: 12px;
+}
+
+.launcher-help-cell {
+  background: #fbfcfd;
+}

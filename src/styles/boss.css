@@ -1,0 +1,23 @@
+.boss-cell {
+  background: #fff;
+}
+
+.boss-cell--header {
+  background: #fcfcfc;
+  font-weight: 600;
+}
+
+.boss-note-cell,
+.boss-summary-cell {
+  padding: 0 12px;
+  background: #fbfcfe;
+  color: #5f6368;
+  font-size: 12px;
+}
+
+.boss-save-cell {
+  padding: 0 10px;
+  color: #80868b;
+  font-size: 11px;
+  text-align: right;
+}

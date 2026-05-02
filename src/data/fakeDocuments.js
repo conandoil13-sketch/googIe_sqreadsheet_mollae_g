@@ -1,0 +1,77 @@
+const fakeDocuments = {
+  launcherTitle: '업무 자동화 처리 현황',
+  launcherUpdatedAt: '2026.05.03',
+  launcherHint: '셀을 선택하면 세부 작업을 확인할 수 있습니다.',
+  launcherRows: [
+    {
+      id: 'tetris',
+      type: 'game',
+    },
+    {
+      id: 'minutes-merge',
+      type: 'task',
+      fakeTaskName: '회의록 병합',
+      fakeStatus: '완료',
+      fakeDepartment: '경영지원팀',
+      fakeDeadline: '어제',
+      fakeButtonLabel: '열람',
+      available: false,
+      noticeMessage: '업무 메모: 권한이 없습니다.',
+      description: '문서 접근 권한이 필요한 항목입니다.',
+    },
+    {
+      id: 'minesweeper',
+      type: 'game',
+    },
+    {
+      id: 'dedupe-report',
+      type: 'task',
+      fakeTaskName: '중복 데이터 제거',
+      fakeStatus: '진행중',
+      fakeDepartment: '데이터관리팀',
+      fakeDeadline: '오늘',
+      fakeButtonLabel: '확인',
+      available: false,
+      noticeMessage: '업무 메모: 권한이 없습니다.',
+      description: '현재 관리자 승인 대기 중인 항목입니다.',
+    },
+    {
+      id: '2048',
+      type: 'game',
+    },
+    {
+      id: 'nonogram',
+      type: 'game',
+    },
+    {
+      id: 'monthly-rollup',
+      type: 'task',
+      fakeTaskName: '월간 보고서 취합',
+      fakeStatus: '대기중',
+      fakeDepartment: '운영기획팀',
+      fakeDeadline: '이번 주',
+      fakeButtonLabel: '열기',
+      available: false,
+      noticeMessage: '업무 메모: 권한이 없습니다.',
+      description: '담당 부서 업로드 완료 후 확인 가능합니다.',
+    },
+    {
+      id: 'attendance-review',
+      type: 'task',
+      fakeTaskName: '출석부 검토',
+      fakeStatus: '긴급',
+      fakeDepartment: '총무팀',
+      fakeDeadline: '오늘',
+      fakeButtonLabel: '확인',
+      available: false,
+      noticeMessage: '업무 메모: 권한이 없습니다.',
+      description: '열람 권한이 제한된 검토 전용 문서입니다.',
+    },
+    {
+      id: 'omok',
+      type: 'game',
+    },
+  ],
+};
+
+export default fakeDocuments;
